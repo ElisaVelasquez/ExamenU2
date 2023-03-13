@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Principal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="207dp"
+        android:layout_height="195dp"
+        app:srcCompat="@drawable/grupo1"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_detalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detalles"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="364dp"
+            android:background="@drawable/round_button"/>
+
+        <Button
+            android:id="@+id/btn_globos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Globos"
+            tools:layout_editor_absoluteX="149dp"
+            tools:layout_editor_absoluteY="419dp"
+            android:background="@drawable/round_button"/>
+
+        <Button
+            android:id="@+id/btn_peluches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peluches"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="486dp"
+            android:background="@drawable/round_button"/>
+
+        <Button
+            android:id="@+id/btn_regalos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regalos"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="486dp"
+            android:background="@drawable/round_button"/>
+
+        <Button
+            android:id="@+id/btn_tazas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tazas"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="486dp"
+            android:background="@drawable/round_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>

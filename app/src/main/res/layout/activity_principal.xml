@@ -9,7 +9,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="207dp"
+        android:layout_width="match_parent"
         android:layout_height="195dp"
         app:srcCompat="@drawable/grupo1"
         tools:layout_editor_absoluteX="91dp"
@@ -24,48 +24,53 @@
 
         <Button
             android:id="@+id/btn_detalles"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
             android:text="Detalles"
-            tools:layout_editor_absoluteX="148dp"
-            tools:layout_editor_absoluteY="364dp"
-            android:background="@drawable/round_button"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
 
         <Button
             android:id="@+id/btn_globos"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
             android:text="Globos"
-            tools:layout_editor_absoluteX="149dp"
-            tools:layout_editor_absoluteY="419dp"
-            android:background="@drawable/round_button"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/btn_peluches"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
             android:text="Peluches"
-            tools:layout_editor_absoluteX="148dp"
-            tools:layout_editor_absoluteY="486dp"
-            android:background="@drawable/round_button"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/btn_regalos"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
             android:text="Regalos"
-            tools:layout_editor_absoluteX="148dp"
-            tools:layout_editor_absoluteY="486dp"
-            android:background="@drawable/round_button"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
 
         <Button
             android:id="@+id/btn_tazas"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
             android:text="Tazas"
-            tools:layout_editor_absoluteX="148dp"
-            tools:layout_editor_absoluteY="486dp"
-            android:background="@drawable/round_button"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
 
     </LinearLayout>
 

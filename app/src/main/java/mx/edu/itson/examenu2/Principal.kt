@@ -2,12 +2,8 @@ package mx.edu.itson.examenu2
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.*
-import java.util.*
 
 class Principal : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +16,8 @@ class Principal : AppCompatActivity() {
         val button5: Button = findViewById(R.id.btn_tazas)
 
         button.setOnClickListener {
-            var intent: Intent = Intent(this, detalle_regalos::class.java)
+            var intent: Intent = Intent(this, Regalos::class.java)
+
             startActivity(intent)
         }
 

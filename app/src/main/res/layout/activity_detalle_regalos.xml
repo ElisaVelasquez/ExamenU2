@@ -11,18 +11,26 @@
     <ImageView
         android:id="@+id/iv_regalo_imagen"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         app:srcCompat="@drawable/pelucheminecraft" />
+
     <TextView
         android:id="@+id/tv_regalo_nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="@color/cBotones"/>
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Descripcion"
+        android:textSize="20sp"
+        android:textColor="@color/cBotones" />
+
     <TextView
         android:id="@+id/tv_regalo_precio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="@color/cBotones"/>
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Precio"
+        android:textSize="20sp"
+        android:textColor="@color/cBotones" />
 </LinearLayout>
